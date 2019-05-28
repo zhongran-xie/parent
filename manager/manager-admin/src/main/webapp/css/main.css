@@ -1,0 +1,271 @@
+@charset "utf-8";
+* { margin: 0;padding: 0;}
+body { background: none repeat scroll 0 0 #FFFFFF;}
+body, div, strong, p, span, table, tr, td, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {color: #666666;font: 12px/150% "宋体";}
+ul, ol, li {list-style: none outside none;}
+img {border: medium none;}
+a { color: #656565; text-decoration: none; outline:none;}
+a:hover { color: #ff6600; text-decoration:underline;}
+
+html{ height:100%; width:100%;}
+.fleft{ float:left;}
+.fright{ float:right;}
+.clear{ clear:both;}
+/*.login-body{ height:100%; width:100%;}
+.login-main{ background:url(../images/bigboxbg.jpg) repeat-x #fff; width:100%; height:100%; position:relative; border:1px solid #000;}
+.login-bg{ background:url(../images/bigboxbg02.jpg) repeat-x;   height:596px; position:absolute;  top:50%; margin-top:-298px; width:100%;}
+.login-box { width:491px; margin:0px auto; padding-top:98px;}
+.login-box .login-nr{ width:491px; background:url(../images/loginbg.png) no-repeat; width:491px; height:278px;}
+.login-box .login-dy{ background:url(../images/loginbgdy.jpg) no-repeat; width:491px; height:182px;}
+
+.txtbox{ padding:70px 0 0 120px; height:122px;}
+.txtbox ul li{ margin:16px 0px; overflow:hidden; zoom:1;}
+.txtbox ul li label{ margin:0px 5px 0px 0px; font-weight:bold; font-size:14px; color:#515058; font-family:微软雅黑; float:left;}
+.txtbox ul li .logintext{ width:140px; height:20px; border:1px solid #94979e; float:left; padding:0px 5px;}
+.txtbox ul li .yzmtext{ width:73px; height:20px; border:1px solid #94979e; float:left; padding:0px 5px;}
+.txtbox ul li .yzm-box{ float:left; margin:0px 5px;}
+.xtbox ul li .yzm-box img{ vertical-align:middle;}
+.txtbox ul li a{ float:left; color:#0000ff; line-height:20px;}
+.btnbox{ padding:10px 0px 0px 205px;}
+.btnbox input{  background:url(../images/btnico.jpg) no-repeat; width:92px; height:31px; cursor:pointer; border:none; text-indent:-9999px; margin-right:5px;}
+.btnbox .loginsty{ background-position:left top;}
+.btnbox .cancelsty{ background-position: left -31px;}
+
+#msg{ display:block; height:27px; line-height:27px; text-align:center; color:#C00}*/
+
+
+.login-body{ height:100%; width:100%;}
+.login-main{ background:url(../images/bigboxbg02.jpg) repeat-x center center #73BCFF; width:100%; height:100%; position:relative; border:1px solid #000;}
+.login-bg{   height:596px; position:absolute;  top:50%; margin-top:-298px; width:100%;}
+.login-box { width:491px; margin:0px auto; padding-top:98px;}
+.login-box .login-nr{ width:491px; background:url(../images/loginbg2.png) no-repeat; width:491px; height:278px;}
+.login-box .ad-bg{ background:url(../images/loginbg3.png) no-repeat;}
+.login-box .caiwu-bg{ background:url(../images/loginbg4.png) no-repeat;}
+
+.txtbox{ padding:75px 0 0 165px; height:110px;}
+.txtbox ul li{ margin:14px 0px; overflow:hidden; zoom:1;}
+.txtbox ul li label{ margin:0px 5px 0px 0px; font-weight:bold; font-size:14px; color:#fff; font-family:微软雅黑; float:left;}
+.txtbox ul li .logintext{ width:140px; height:20px; border:1px solid #94979e; float:left; padding:0px 5px;}
+.txtbox ul li .yzmtext{ width:73px; height:20px; border:1px solid #94979e; float:left; padding:0px 5px;}
+.txtbox ul li .yzm-box{ float:left; margin:0px 5px;}
+.xtbox ul li .yzm-box img{ vertical-align:middle;}
+.txtbox ul li a{ float:left; color:#fff; line-height:20px;}
+.txtbox ul li a:hover{ color:#FF0;}
+.btnbox{ padding:5px 0px 0px 225px;}
+.btnbox input{  background:url(../images/btnico.jpg) no-repeat; width:60px; height:26px; cursor:pointer; border:none; text-indent:-9999px; margin-right:5px;}
+.btnbox .loginsty{ background-position:left top;}
+.btnbox .cancelsty{ background-position: left -31px;}
+
+#msg{ display:block; height:25px; line-height:25px; text-align:center; color:#F00;}
+
+
+/*后台*/
+
+/*出错页面*/
+.bs-error{ margin:60px 0px 0px 80px; width:732px; height:270px;}
+.bs-error .txtcon{ font-size:14px;}
+.bs-error .txtcon span.error-txt{ display:block; padding:70px 0px 0px 440px; font-size:34px; color:#343434; font-family:微软雅黑; }
+.bs-error .txtcon span.a-txt{ padding:85px 0px 0px 313px; display:block; font-size:14px;}
+.bs-error .txtcon span.a-txt a{ text-decoration:underline; color:#3277cc;}
+.bs-error .txtcon a:hover{ color:#F60;}
+
+
+
+/*顶部右侧*/
+
+
+/*导航*/
+.backsystem-nav { color:#313234; background:url(../images/nav-bg.jpg) repeat-x; height:32px; line-height:32px; padding-left:10px; margin-top:4px;}
+.backsystem-nav span{ font-weight:bold; color:#313234; line-height:32px;}
+.backsystem-nav a{ color:#313234; line-height:32px;}
+/*搜索条*/
+.bsystem-search ul{ overflow:hidden; zoom:1; padding:20px 0px;}
+.bsystem-search ul li{ float:left; margin:5px 15px; color:#333;}
+.bsystem-search ul li .searchtxt{ width:135px; height:21px; border:1px solid #ACADB2; vertical-align:middle;}
+.bsystem-search ul li .searchsel{ width:96px; height:22px; vertical-align:middle; padding:2px;}
+.bsystem-search ul li .searchsel02{ width:215px; height:22px; vertical-align:middle; padding:2px;}
+.bsystem-search ul li .searchsel03{ width:110px; height:22px; vertical-align:middle; padding:2px;}
+.bsystem-search ul li .searchtime{ width:135px; height:21px; border:1px solid #ACADB2; vertical-align:middle;}
+.search-go{ background:url(../images/bs-ico.png) no-repeat left -149px; width:57px; height:21px; border:none; cursor:pointer; color:#333; vertical-align:middle;}
+.search-go:hover{ background-position:left -171px;}
+
+.backsystem-form{ margin-top:10px;}
+.backsystem-form .bf-li{ overflow:hidden; zoom:1; padding:12px 10px;}
+.backsystem-form .bf-libg{ background:#f5f5f5;}
+.backsystem-form .bf-li label{ display:block; float:left; width:100px; text-align:right; color:#343434;line-height:20px;}
+.backsystem-form .bf-li label.txt120{ width:120px;}
+.backsystem-form .bf-li .nr-box{ float:left; width:65%; line-height:20px;}
+.backsystem-form .bf-li .nr-box p{ line-height:20px; margin-bottom:10px;}
+.backsystem-form .bf-li .nr-box input{ vertical-align:middle; margin:0px 5px 0px 2px;}
+.backsystem-form .bf-li .nr-box input.txtsty{ width:200px; height:25px; border:1px solid #D1D1D3;}
+.backsystem-form .bf-li .nr-box input.txtsty02{ width:115px; height:25px; border:1px solid #D1D1D3;}
+.backsystem-form .bf-li .nr-box input.txtsty03{ width:235px; height:25px; border:1px solid #D1D1D3;}
+.backsystem-form .bf-li .nr-box input.txtsty04{ width:40px; height:25px; border:1px solid #D1D1D3;}
+.backsystem-form .bf-li .nr-box input.txtsty05{ width:100px; height:25px; border:1px solid #D1D1D3;}
+.ts-xin{ color:#ff0000; font-size:14px; padding:3px 0px 3px 0px; line-height:20px; margin:0px 4px; font-style:normal;}
+.ts-info{font-style:normal; color:#999; padding:3px 0px 3px 0px; line-height:20px; margin-left:8px;}
+.ts-error{ background:url(../images/bs-ico.png) no-repeat -81px top; font-style:normal; color:#ff0000; padding:3px 0px 3px 20px; line-height:20px; margin-left:8px;}
+.backsystem-form select{ margin:0px 5px 0px 2px; vertical-align:middle;}
+.backsystem-form .sel-sty{ padding:4px 3px 4px 3px; min-width:80px; width:80px;}
+.backsystem-form .sel-sty02{ padding:4px 3px 4px 3px; min-width:100px; width:100px;}
+.backsystem-form .sel-sty03{ padding:4px 3px 4px 3px; min-width:200px; width:200px;}
+.backsystem-form .sel-sty04{ padding:4px 3px 4px 3px; width:270px;}
+.backsystem-form .aresty{ width:380px; height:65px; vertical-align:middle; border:1px solid #D1D1D3;}
+.gwbtn{ border:1px solid #b3b3b3; border-left:1px solid #cbcbcb; border-right:1px solid #cbcbcb; height:24px; background:url(../images/bs-ico.png) no-repeat left -52px; padding:0px 10px; cursor:pointer; line-height:20px;}
+.gwbtn:hover{ background-position:left -74px;}
+.btns-box{ padding:18px 100px 18px 100px;}
+.submitbtn{ background:url(../images/bs-ico.png) no-repeat 0px -26px; width:72px; height:26px; border:none; cursor:pointer; color:#000; font-weight:bold; font-size:14px; vertical-align:middle; margin-right:18px;}
+.submitbtn:hover{ background-position:left -122px;}
+.resetbtn{ background:url(../images/bs-ico.png) no-repeat left top; width:80px; height:25px; border:none; cursor:pointer; color:#666; vertical-align:middle;}
+.resetbtn:hover{ background-position:left -96px;}
+
+.btlab{ display:block; float:left;}
+
+
+
+/*设置客服*/
+.zkfbox{ margin:30px 0px 30px 30px;}
+.zkfbox table{ min-width:600px; }
+.zkfbox tr td{ border-bottom:1px solid #ececec; line-height:35px; text-align:left; padding-left:20px; }
+.zkfbox tr th{ border-bottom:1px solid #ececec; line-height:35px; text-align:center; }
+.zkfbox tr td a{ color:#06F; text-decoration:underline;}
+.zkfbox li span{ width:49%; float:left; display:block; line-height:35px;}
+.zkfbox .sele-style{ width:118px; border:1px solid #d8d8d8; height:23px; margin-left:30px;}
+.btns-boxkef{ text-align:center; width:50%;}
+
+/*提示*/
+.backsystem-form .addts { overflow:visible; zoom:normal; }
+.backsystem-form .addts .lefttxt{ float:left;}
+.backsystem-form .addts .ts-error{ float:left; line-height:14px; margin-top:4px;}
+.backsystem-form .addts .ts-wh{ float:left; background:url(../images/ts.png) no-repeat; width:16px; height:16px; position:relative; margin:5px 30px 0px 2px; }
+.backsystem-form .addts .ts-wh a{ display:block; width:16px; height:16px;}
+.backsystem-form .addts .ts-wh .tsinfo{ position:absolute; background:#fff; border:1px solid #ccc; left:-10px; bottom:25px; padding:8px; line-height:20px; color:#999; width:250px; border-style:solid; -moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.backsystem-form .addts .ts-wh .tsjt{ position:absolute; bottom:-8px; left:10px;}
+
+
+
+/*财务*/
+.cutitle{ font-weight:bold; font-size:14px; color:#353535;}
+.cutitle .blue{ color:#3577CE; font-style:normal;}
+.sjxtishi{ color:#CC0003; background:url(../images/jinggao.png) no-repeat 10px 10px #FCF2F1; margin:10px 0px; padding:9px 0px 9px 30px;}
+.myzh{ border:1px solid #E1E1E1;}
+.caiwubox{ margin:40px;}
+.titlezh{ background:#FFF9E9; color:#666762; padding:30px 35px; border-bottom:1px solid #DAD8D9;}
+.titlezh ul li{ float:left; margin-right:20px;}
+.titlezh .red{ color:#CD0006; font-weight:bold; font-style:normal; font-family:Arial, Helvetica, sans-serif;}
+.lishishouru h3{ font-weight:bold; line-height:35px; margin:10px 35px;}
+.lishishouru ul li{ line-height:30px;}
+.lishishouru ul li .red{ color:#CD0006; font-weight:bold; font-style:normal; font-family:Arial, Helvetica, sans-serif;}
+.lishishouru ul li a{ margin-left:25px; color:#2A7BCA;}
+.lishishouru ul li a:hover{ color:#F60;}
+.lishishouru ul{ margin:0px 35px 20px;}
+
+/** 属性设置属性值表格样式*/
+.hhtable{ border-collapse:collapse; width:80%;}
+.hhtable .l-grid-hd-row td{ background:#fff; height:24px; text-align:center; color:#666; font-weight:bold; padding:2px 0px 0px; line-height:24px;}
+.hhtable .l-grid-hd-row td span{ display:block; background:#F1F1F1;}
+.hhtable tr td{ border:1px solid #D6D6D6; color:#666; font-size:12px; padding:10px; text-align:center;}
+.hhtable02 tr td{ padding:0px 10px;}
+
+.affairs-item { overflow:hidden; zoom:1; margin:18px 10px 0px;}
+.affairs-item li{ float:left; margin:0px 2px 0px 0px;  width:109px; height:32px; line-height:32px; text-align:center; background:url(../images/htimg01.jpg) no-repeat left -33px; height:}
+.affairs-item li.on{ background:url(../images/htimg01.jpg) no-repeat left top; line-height:32px; color:#fff; font-weight:bold;}
+.affairs-item li:hover{ background:url(../images/htimg01.jpg) no-repeat left top;}
+.affairs-item li:hover a{ color:#fff; font-weight:bold;}
+.affairs-item li a{ line-height:32px; display:block;}
+.affairs-item li a:hover{ text-decoration:none;}
+.affairs-item li.on a{ color:#fff; font-weight:bold;}
+
+h1.sxsty{ color:#333; font-size:14px; line-height:30px; font-weight:bold; margin:5px;}
+
+
+
+/*选择类目*/
+.prod-content{overflow:hidden; zoom:1; margin:50px 0px 25px 8px;}
+.left-bg{ background:#E2F1F8; float:left; width:17px; height:395px; border:1px solid #C2E2EE; border-right:none;}
+.right-bg{ background:#E2F1F8; float:left; width:17px; height:395px; border:1px solid #C2E2EE; border-left:none;}
+.left-bg a{ display:block; width:18px; background:url(../../images/public/icopng.png) no-repeat -14px -296px; height:42px; margin-top:170px;}
+.right-bg a{display:block; width:18px; background:url(../../images/public/icopng.png) no-repeat -14px -342px; height:42px; margin-top:170px; margin-right:1px;}
+.left-bg a.Disable,.left-bg a.Disable:hover{  background:url(../../images/public/icopng.png) no-repeat -32px -296px;}
+.right-bg a.Disable,.right-bg a.Disable:hover{ background:url(../../images/public/icopng.png) no-repeat -32px -342px;}
+.left-bg a:hover{ background:url(../../images/public/icopng.png) no-repeat 3px -296px;}
+.right-bg a:hover{background:url(../../images/public/icopng.png) no-repeat 3px -342px;}
+.cc-list-box{ border:1px solid #c2e2ee; height:395px; width:230px; position:relative; float:left;}
+.cc-list-box .tree-search-box{ background:#fff; left:0px; position:absolute; top:0px; z-index:99;}
+.cc-list-box .tree-search{ width:206px; background:#fff; border:1px solid #CDCDCD; height:25px; margin:4px 0px 4px 4px;}
+.cc-list-box .tree-search .search-txt{ height:20px; margin-bottom:1px; width:170px; border:none; padding:0px 2px 0px 3px; float:left; }
+.cc-list-box .tree-search .search-btn{ background:url(../images/searchbtn.jpg) no-repeat -4px -2px; float:right; width:21px; height:19px; border:none; cursor:pointer;}
+.cc-list-box ol{width:230px; overflow-y:auto; overflow-x:hidden; height:363px; padding-top:36px;}
+.cc-list-box a.big-tree-title{ color:#36c; line-height:24px; border-bottom:1px dotted #d8d8d8; display:block; margin-top:8px; background:none;}
+.cc-list-box li{ line-height:24px; margin:0px 4px 0px 6px; }
+.cc-list-box li a{ display:block; overflow:hidden; z-index:1; margin-bottom:1px; }
+.cc-list-box .cc-tree li{ margin:0px;}
+.cc-list-box li.on a{ border:1px solid #FDC5A2; background:#FEE7D9; padding:0px 3px;}
+
+
+.prod-box .prod-btn{ text-align:center;}
+.prod-box .prod-btn input{ background:url(../../images/prod/prod-btn.jpg) no-repeat; width:141px; height:32px; font-size:14px; font-weight:bold; color:#fff; border:none; cursor:pointer;}
+.nextNode{ background:url(../images/nextbtn.jpg) no-repeat top right; height:20px; display:block; float:right; width:9px;}
+.cc-list-box li a span{ width:180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display:block; line-height:23px;}
+.cc-list-box li a{ padding:1px 4px;}
+.cc-list-box li a:hover{ border:1px solid #FDC5A2; background:#FEE7D9; text-decoration:none; padding:0px 3px;} 
+.cc-list-box a.big-tree-title:hover{ border:none; background:none; border-bottom:1px dotted #D8D8D8; padding:1px 4px;}
+
+/*欢迎进入财务系统*/
+.caiwuxt{ padding:30px;}
+.caiwuxt .cutitle{ color:#333333; font-size:14px;}
+.caiwuxt .cutitle .red{ color:#CC3300; font-size:14px; font-weight:bold;}
+.caiwuxt .sjxtishi{ color:#CC3300; background:none; padding-left:15px; }
+.caiwuxt .titlezh ul li{ color:#333;}
+
+.caiwuxt .myzh .timebox{ margin:10px 0px 5px;}
+.caiwuxt .myzh .timebox h3{ float:left; margin:5px 0px 5px 35px; line-height:25px; color:#333;}
+.caiwuxt .myzh .timebox span{ float:left; background:url(../images/imgcaiwu.jpg) no-repeat left 5px; margin:5px 0px; line-height:25px; padding-left:23px; display:block; color:#999;}
+.caiwuxt .myzh .timebox span em{ float:left; display:block; font-style:normal;}
+.caiwuxt .myzh .timebox span em.xiala{ background:url(../images/imgcaiwu.jpg) no-repeat left -22px; width:20px; height:18px; margin-top:5px;}
+.caiwuxt .myzh{ border:1px solid #E4E4E4; margin-top:28px;}
+.caiwuxt .myzh .titlezh{ background:none; border-bottom:none;}
+.caiwuxt .myzh .titlezh .red{ font-weight:normal;}
+.caiwuxt .lishishouru ul li span.red{ color:#ff0000; font-weight:normal;}
+.caiwuxt .lishishouru ul li { color:#333;}
+
+.backsystem-form .btlong130 .bf-li label{ width:130px;}
+
+.htdatetable{ border-collapse:collapse;}
+.htdatetable tr td{ line-height:34px; padding:2px 10px;border:1px solid #e5e5e5; font-weight:bold;}
+.htdatetable tr th{ font-weight:bold; color:#333; text-align:center;border:1px solid #e5e5e5;}
+.htdatetable tr td em.blue{ color:#1B77BB; font-style:normal; font-family:Arial, Helvetica, sans-serif;}
+.htdatetable tr td em.red{ color:#E60012; font-style:normal; font-family:Arial, Helvetica, sans-serif;}
+.titledate{ background:#f5f5f5; line-height:30px; padding-left:30px; }
+.titledate span{ color:#1B77BB; font-weight:bold; background:url(../images/data03.gif) no-repeat; padding-left:10px; margin:9px 20px 9px 0px; display:block; height:15px; line-height:15px;}
+.titledate02{ background:#f5f5f5; line-height:30px; padding-left:30px; border-top:1px solid #e5e5e5;  border-bottom:1px solid #e5e5e5; }
+.titledate02 span{ color:#1B77BB; font-weight:bold; background:url(../images/data03.gif) no-repeat; padding-left:10px; margin:9px 20px 9px 0px; display:block; height:15px; line-height:15px;}
+.imgdata{ margin:20px 15px;}
+.yhtable { border-collapse:collapse; width:290px; float:left; margin:10px 18px 20px 18px; margin-bottom:18px;}
+.yhtable .titleyh{ background:#f5f5f5;}
+.yhtable tr td{ border:1px solid #e5e5e5; color:#333; font-weight:bold; text-align:center; line-height:28px;}
+.yhtable tr th{ color:#BB0000; text-align:center; border:1px solid #e5e5e5; line-height:28px;}
+
+/*统计页面*/
+.caiwuxt{position:relative;}
+.caiwuxt .choosedate{ text-align:right; padding-right:80px;}
+.caiwuxt .lltitlebox{font-size:16px; color:#2089ca; font-weight:bold; text-align:left; padding:15px 0px 12px 20px; border-bottom:1px dotted #535959}
+.caiwuxt .traffic .big{ text-align:center; padding-top:12px;}
+.caiwuxt .traffic .big .tle{border-bottom:none; background:url(../images/tdtlebackground.jpg) repeat-x;}
+.caiwuxt .traffic .big .tle em{font-style:normal; cursor:pointer; position:relative; top:-2px; left:13px; color:#253944; font-weight:bold;}
+.caiwuxt .traffic .big td{border:1px solid #8b99a4; color:#00010c; font-size:12px; border-left:none; line-height:23px;}
+.caiwuxt .small{overflow:hidden; text-align:center; margin:auto; margin-top:28px;}
+.caiwuxt .small .form{width:500px; overflow:hidden; border:1px solid #8b99a4; padding:0px 5px 24px 5px; margin-bottom:8px; float:left; margin-right:24px;}
+.caiwuxt .small .form .left{float:left; width:239px;}
+.caiwuxt .small .form .right{float:right; width:239px;}
+.caiwuxt .small .form .lltitlebox{margin-bottom:12px;}
+.caiwuxt .small .form .tle{background:url(../images/tdtlebackground.jpg) repeat-x;}
+.caiwuxt .small .form td{border:1px solid #8b99a4; line-height:23px;text-align:center; border-left:none; color:#00010c;}
+
+.search-go02{ background:url(../images/bs-ico.png) repeat-x left -194px; padding:0px 5px; height:21px; border:none; cursor:pointer; color:#333; vertical-align:middle; border:1px solid #3D81B2;}
+.search-go02:hover{ background-position:left -215px;}
+
+/*.caiwuxt .onquestion1{position:absolute; top:100px; left:845px; background:#0f0; padding:10px;}
+.caiwuxt .onquestion2{position:absolute; top:100px; left:1015px; background:#0f0; padding:10px;}*/
+
+

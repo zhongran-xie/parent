@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mapper.ProductMapper">
+	<resultMap id="BaseResultMap" type="com.demo.entity.Product">
+		<id column="id" property="id" jdbcType="INTEGER"/>
+		<result column="shop_id" property="shopId" jdbcType="INTEGER"/>
+		<result column="product_name" property="productName" jdbcType="VARCHAR"/>
+		<result column="product_type" property="productType" jdbcType="INTEGER"/>
+		<result column="product_price" property="productPrice" jdbcType="DECIMAL"/>
+		<result column="product_stock" property="productStock" jdbcType="INTEGER"/>
+		<result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+		<result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP"/>
+		<result column="is_valid" property="isValid" jdbcType="INTEGER"/>
+		<result column="is_alipay" property="isAlipay" jdbcType="INTEGER"/>
+		<result column="is_wechat" property="isWechat" jdbcType="INTEGER"/>
+		<result column="is_remaining_sum" property="isRemainingSum" jdbcType="INTEGER"/>
+		<result column="product_putaway" property="productPutaway" jdbcType="INTEGER"/>
+		<result column="product_code" property="productCode" jdbcType="VARCHAR"/>
+		<result column="product_auth" property="productAuth" jdbcType="INTEGER"/>
+	</resultMap>
+	
+	<select id="findAll"  resultMap="BaseResultMap">
+		select * from td_product
+	</select>
+
+</mapper>

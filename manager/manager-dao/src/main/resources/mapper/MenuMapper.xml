@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mapper.MenuMapper">
+	<resultMap id="BaseResultMap" type="com.demo.entity.Menu">
+		<id column="id" property="id" jdbcType="INTEGER"/>
+		<result column="is_expand" property="isExpand" jdbcType="TINYINT"/>
+		<result column="name" property="name" jdbcType="VARCHAR"/>
+		<result column="sort" property="sort" jdbcType="INTEGER"/>
+		<result column="parent_id" property="parentId" jdbcType="INTEGER"/>
+		<result column="url" property="url" jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<select id="findAll"  resultMap="BaseResultMap">
+		select * from td_menu;
+	</select>
+
+</mapper>

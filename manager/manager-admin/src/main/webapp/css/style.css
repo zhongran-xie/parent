@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 2015-08-15  */
+.f_cf:before,.f_cf:after {content:"";display:table;}
+.f_cf:after {clear:both;overflow:hidden;}
+.f_cf {zoom:1;}
+.f_fl {float:left;}
+.f_fr {float:right;}
+.f_tac {text-align:center;}
+.f_tar {text-align:right;}
+.f_tal {text-align:left;}
+.f_db {display:block;}
+.f_dn {display:none;}
+.f_pr{
+    position: relative;
+}
+.admin_bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+.admin_bg img{
+	width: 100%;
+	height: 100%;
+}
+.admin_inner{
+	width: 1100px;
+	margin: 0 auto;
+	padding-top: 12%;
+}
+.admin_left{
+	float: left;
+	width: 446px;
+	margin-top: 180px;
+	margin-right: 145px;
+}
+.admin_right{
+	float: left;
+	width: 509px;
+	height: 500px;
+	background: url(../images/loginbox_bg.png) no-repeat;
+}
+.admin_right .login_top{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 30px;
+}
+.admin_right .login_top h3{
+	color: #41A7DE;
+}
+.login_box{
+	width: 342px;
+	margin: 38px auto 0;
+}
+.login_box p{
+	font-size: 14px;
+	margin-bottom: 25px;
+	height: 30px;
+	line-height: 30px;
+}
+.login_box input{
+	border: none;
+  	height: 26px;
+  	outline: none;
+  	font-size: 14px;
+}
+.login_box .pp1,.login_box .pp2,.login_box .pp4{
+	padding-left: 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.login_box .pp3 span{
+	float: left;
+	padding-left: 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.login_box .pp3 input{
+	width: 146px;
+}
+.login_box .pp3 a{
+	float: left;
+	padding-left: 0;
+	margin-left: 30px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.login_box .pp3 a img{
+	width: 100%;
+	height: 100%;
+}
+.login_box .pp4 {
+	text-align: center;
+	border: none;
+	margin-top: 40px;
+	box-shadow: 1px 2px 3px #76aecc;
+}
+.login_box .pp4 a{
+	display: block;
+	width: 100%;
+	color: #014883;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
